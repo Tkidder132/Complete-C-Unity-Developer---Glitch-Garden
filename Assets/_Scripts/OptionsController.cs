@@ -18,6 +18,13 @@ public class OptionsController : MonoBehaviour
         difficultySlider.value = PlayerPrefsController.GetDifficulty();
 	}
 
+    // Update is called once per frame
+    void Update()
+    {
+        Debug.Log("Changing volume to: " + volumeSlider.value);
+        musicManager.ChangeVolume(volumeSlider.value);
+    }
+
     public void SaveAndExit()
     {
         PlayerPrefsController.SetMasterVolume(volumeSlider.value);

@@ -20,6 +20,11 @@ public class MusicManagerController : MonoBehaviour
         SceneManager.sceneLoaded += OnLevelLoaded;
 	}
 
+    public void ChangeVolume(float volume)
+    {
+        audioSource.volume = volume;
+    }
+
     void OnLevelLoaded(Scene scene, LoadSceneMode mode)
     {
         AudioClip levelMusic = levelMusicChangeArray[scene.buildIndex];
