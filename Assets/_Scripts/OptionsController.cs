@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class OptionsController : MonoBehaviour
@@ -21,8 +19,13 @@ public class OptionsController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Changing volume to: " + volumeSlider.value);
         musicManager.ChangeVolume(volumeSlider.value);
+    }
+
+    public void SetDefaults()
+    {
+        volumeSlider.value = 0.8f;
+        difficultySlider.value = 2.0f;
     }
 
     public void SaveAndExit()
