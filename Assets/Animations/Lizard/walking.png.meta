@@ -18,6 +18,23 @@ TextureImporter:
     21300026: npc_deimaginator__x1_walk_png_1354836023_13
     21300028: npc_deimaginator__x1_walk_png_1354836023_14
     21300030: npc_deimaginator__x1_walk_png_1354836023_15
+    21300032: walking_0
+    21300034: walking_1
+    21300036: walking_2
+    21300038: walking_3
+    21300040: walking_4
+    21300042: walking_5
+    21300044: walking_6
+    21300046: walking_7
+    21300048: walking_8
+    21300050: walking_9
+    21300052: walking_10
+    21300054: walking_11
+    21300056: walking_12
+    21300058: walking_13
+    21300060: walking_14
+    21300062: walking_15
+  externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -26,6 +43,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -41,10 +60,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 4096
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -53,8 +75,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 133.3333
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -66,17 +89,19 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_0
+      name: walking_0
       rect:
         serializedVersion: 2
         x: 0
@@ -87,9 +112,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_1
+      name: walking_1
       rect:
         serializedVersion: 2
         x: 251
@@ -100,9 +126,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_2
+      name: walking_2
       rect:
         serializedVersion: 2
         x: 502
@@ -113,9 +140,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_3
+      name: walking_3
       rect:
         serializedVersion: 2
         x: 0
@@ -126,9 +154,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_4
+      name: walking_4
       rect:
         serializedVersion: 2
         x: 251
@@ -139,9 +168,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_5
+      name: walking_5
       rect:
         serializedVersion: 2
         x: 502
@@ -152,9 +182,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_6
+      name: walking_6
       rect:
         serializedVersion: 2
         x: 0
@@ -165,9 +196,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_7
+      name: walking_7
       rect:
         serializedVersion: 2
         x: 251
@@ -178,9 +210,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_8
+      name: walking_8
       rect:
         serializedVersion: 2
         x: 502
@@ -191,9 +224,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_9
+      name: walking_9
       rect:
         serializedVersion: 2
         x: 0
@@ -204,9 +238,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_10
+      name: walking_10
       rect:
         serializedVersion: 2
         x: 251
@@ -217,9 +252,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_11
+      name: walking_11
       rect:
         serializedVersion: 2
         x: 502
@@ -230,9 +266,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_12
+      name: walking_12
       rect:
         serializedVersion: 2
         x: 0
@@ -243,9 +280,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_13
+      name: walking_13
       rect:
         serializedVersion: 2
         x: 251
@@ -256,9 +294,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_14
+      name: walking_14
       rect:
         serializedVersion: 2
         x: 502
@@ -269,9 +308,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: npc_deimaginator__x1_walk_png_1354836023_15
+      name: walking_15
       rect:
         serializedVersion: 2
         x: 0
@@ -282,8 +322,10 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
